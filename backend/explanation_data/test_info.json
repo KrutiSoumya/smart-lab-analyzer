@@ -1,0 +1,37 @@
+{
+  "Hemoglobin": {
+    "pattern": "Hemoglobin\\s*[:\\-]?\\s*([\\d.]+)\\s*g/dL|Hb\\s*[:\\-]?\\s*([\\d.]+)\\s*g/dL",
+    "normal_range": [12.0, 16.0],
+    "description": "Hemoglobin is responsible for oxygen transport in the blood.",
+    "low_interpretation": "Suggestive of anemia or chronic illness. Could cause fatigue, pallor, or shortness of breath.",
+    "high_interpretation": "May indicate dehydration, lung or heart disease, or living at high altitude.",
+    "normal_interpretation": "Hemoglobin level is within the expected physiological range.",
+    "low_action": "Iron studies, reticulocyte count, and review of nutritional intake recommended.",
+    "high_action": "Evaluate for hypoxia-driven erythropoiesis or polycythemia vera.",
+    "normal_action": "Continue routine monitoring during health checkups."
+  },
+  "WBC": {
+  "pattern": "White Blood Cell Count\\s*\\(?WBC\\)?[:\\-]?\\s*([\\d,]+)|Total Leukocyte Count\\s*\\(?TLC\\)?[:\\-]?\\s*([\\d,]+)|WBC\\s*[:\\-]?\\s*([\\d,]+)",
+  "normal_range": [4000, 11000],
+  "reference_range": "4,000–11,000 cells/cu.mm",
+  "description": "White blood cells help the body fight infection.",
+  "low_interpretation": "Leukopenia may indicate viral infections, bone marrow disorders, or autoimmune conditions.",
+  "high_interpretation": "Leukocytosis may suggest infection, inflammation, or hematologic malignancies.",
+  "normal_interpretation": "WBC count is within the reference range.",
+  "low_action": "Check differential count, consider immunological evaluation.",
+  "high_action": "Rule out acute infection; consider CRP/ESR and differential WBC.",
+  "normal_action": "No immediate intervention required."
+},
+
+  "Platelet Count": {
+    "pattern": "Platelet(?:s| Count)?[:\\-]?\\s*([\\d.]+)\\s*(lakhs|lakh|×\\s*10\\^5|×\\s*10⁵)?",
+    "normal_range": [150000, 450000],
+    "description": "Platelets are responsible for clotting blood to prevent excessive bleeding.",
+    "low_interpretation": "Thrombocytopenia can cause bleeding disorders and may be due to infection or bone marrow suppression.",
+    "high_interpretation": "Thrombocytosis may be reactive (infections, surgery) or primary (myeloproliferative disorders).",
+    "normal_interpretation": "Platelet count is within normal physiological range.",
+    "low_action": "Repeat test, assess bleeding tendency, consider peripheral smear.",
+    "high_action": "Investigate for inflammation, iron deficiency, or underlying malignancy.",
+    "normal_action": "No immediate concern; continue monitoring."
+  }
+}
